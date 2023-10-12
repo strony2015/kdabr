@@ -1,30 +1,43 @@
-
 <!DOCTYPE html>
-<html lang="pl-PL">
-<head>
-    <META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
-</head>
+<html>
+    <head>
+        <title>Dabrowski 3G</title>
+        <script language="JavaScript">
+            function WinOpen_z1_Dabrowski()
+            {
+            window.open("zad_1.html","okienko_z1","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
+            }
+            function WinOpen_z2_Dabrowski()
+            {
+            window.open("zad_2.html","okienko_z2","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
+            }
+            function WinOpen_z3_Dabrowski()
+            {
+            window.open("obraz.html","okienko_z3","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=200");
+            }
+            function WinOpen_z4_Dabrowski()
+            {
+            window.open("z4_dab.html","okienko_z4","toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=400");
+            }
+            function WinOpen_z5_Dabrowski()
+            {
+            window.open("zadanie5_dab.html","okienko_z5","toolbar=no,directories=no,menubar=no,height=400,width=1170,top=1000,left=10");
+            }
+            function okno_zamknij_Dabrowski()
+            {
+            window.close()
+            }
+        </script>
+    </head>
     <body>
-        <table width=95% border="1" align="center">
-            <tr>
-            <td width=18% align=center>
-            <marquee bgcolor="red">Dąbrowski</marquee>
-            Linki do zadań: <br>
-            <a href="zad 1.html" target="strony">Zadanie 1</a>
-            <br>
-            <a href="zad 2.html" target="strony">Zadanie 2</a>
-            <br>
-            <a href="zadanie3_dab.html" target="strony">Zadanie 3</a>
-            <br>
-            <a href="zadanie4_dab.html" target="strony">Zadanie 4</a>
-            <br>
-   
-
-            </td>
-            <td align=center>
-            <iframe width=650 height=650 name="strony" src="start.html" border="0"></iframe>
-       
-            </tr>
-        </table>
+        <p style="color: red; font-size: 50px;">Szkielet zaliczeniowy JavaScript Krystian Dabrowski 3G</p>
+        <form>
+            <input type="button" name="zadanie1" value="zadanie1-Dabrowski" onclick="WinOpen_z1_Dabrowski(' ')">
+            <input type="button" name="zadanie2" value="zadanie2-Dabrowski" onclick="WinOpen_z2_Dabrowski(' ')">
+            <input type="button" name="zadanie3" value="zadanie3-Dabrowski" onclick="WinOpen_z3_Dabrowski(' ')">
+            <input type="button" name="zadanie4" value="zadanie4-Dabrowski" onclick="WinOpen_z4_Dabrowski(' ')">
+            <input type="button" name="zadanie5" value="zadanie5-Dabrowski" onclick="WinOpen_z5_Dabrowski(' ')">
+            <input type="button" value="zamknij okno" onclick="okno_zamknij_Dabrowski()"/>
+        </form>
     </body>
 </html>
